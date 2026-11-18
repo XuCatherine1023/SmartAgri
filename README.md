@@ -48,16 +48,12 @@ SmartAgri-WebBot/
 *(Note: Currently in preliminary prototype phase; full ECS deployment will follow regional qualification.)*
 
 1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/](https://github.com/)[YourUsername]/SmartAgri-WebBot.git
-   cd SmartAgri-WebBot/backend
-   ```
 2. **Install dependencies:**
    ```bash
    pip install -r requirements.txt
    ```
 3. **Configure environment variables:**
-   Add your Huawei Cloud `X-Auth-Token`, ModelArts Endpoint URL, and RDS credentials in a `.env` file.
+   Huawei Cloud `X-Auth-Token`, ModelArts Endpoint URL, and RDS credentials in a `.env` file.
 4. **Run the Flask server:**
    ```bash
    python app.py
